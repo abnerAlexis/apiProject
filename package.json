@@ -1,0 +1,12 @@
+{
+  "name": "apiproject",
+  "version": "1.0.0",
+  "description": "Initialize your project with a “package.json” file. Make sure the “main” field is set to “index.js”. ``` npm init --yes ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
