@@ -11,9 +11,12 @@ npm install morgan
 
 ##### Add node_modules to .gitignore
 
-##### imports express locally
+##### imports expres, morgan, fs, and path locally
 ```
-    const express = require('express');
+    const express = require('express'),
+    morgan = require('morgan'),
+    fs = require('fs'),
+    path = require('path');
 ```
 
 ##### declares a variable that encapsulates Express’ functionality to configure your web server.
