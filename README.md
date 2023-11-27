@@ -6,6 +6,7 @@ npm init --yes
 ```
 npm install express
 npm install body-parser
+npm install morgan
 ```
 
 ##### Add node_modules to .gitignore
