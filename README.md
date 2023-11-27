@@ -8,3 +8,4 @@ npm install express
 npm install body-parser
 ```
 
+##### Add node_modules to .gitignore
