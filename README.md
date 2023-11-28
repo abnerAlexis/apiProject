@@ -11,6 +11,7 @@ npm install morgan
 
 ##### Add node_modules to .gitignore
 
+
 ##### imports expres, morgan, fs, and path locally
 ```
     const express = require('express'),
@@ -26,4 +27,11 @@ This new variable is what you’ll use to route your HTTP requests and responses
 ```
     const app = express();
 ```
-### Request Routing with Express
+### Sending data from a json extended file to the server
+```
+const data = require('./topten.json');
+
+app.get('/movies', (req, res) => {
+  res.send(JSON.stringify(data));
+});
+```
